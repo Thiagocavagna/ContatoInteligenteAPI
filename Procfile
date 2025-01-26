@@ -1,0 +1,1 @@
+web: dotnet bin/publish/ContatoInteligenteAPI.dll --urls http://*:$PORT
