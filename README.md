@@ -11,6 +11,10 @@ O projeto consiste em um chatbot que interage com o usuário e exibe informaçõ
 - **Chatbot:** O chatbot segue o fluxo de conversação proposto, verifica a validação de entrada com expressões regulares e lida com erros no fluxo e integração com a API adequadamente.
 - **API RESTful:** A API retorna os 5 repositórios C# mais antigos da Takenet e consome a API pública do GitHub. A resposta inclui campos como nome, descrição, link do avatar do repositório e data da última atualização.
 
+#### Autenticação
+
+A API utiliza **Basic Authentication** para autenticar as requisições. É necessário fornecer o nome de usuário e senha.
+
 ## Endpoints da API
 
 - **GET /repositories**: Retorna os repositórios do github de acordo com os filtros informados.
